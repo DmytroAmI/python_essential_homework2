@@ -1,14 +1,19 @@
 class SuperClass1:
+    """Parent class 1"""
     def info(self):
+        """Print some info about the class"""
         print("I am a SuperClass1")
 
 
 class SuperClass2:
+    """Parent class 2"""
     def info(self):
+        """Print some info about the class, override method"""
         print("I am a SuperClass2")
 
 
 class Descendant(SuperClass1, SuperClass2):
+    """Example of multiple inheritance"""
     pass
 
 

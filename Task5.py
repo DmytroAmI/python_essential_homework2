@@ -1,11 +1,14 @@
 class MyClass:
+    """Some class for the example"""
     def __init__(self, name, age, country):
+        """Initiate the arguments"""
         self.name = name
         self.age = age
         self.country = country
 
     @staticmethod
     def is_adult(age):
+        """Whether the person is an adult"""
         return age >= 18
 
 

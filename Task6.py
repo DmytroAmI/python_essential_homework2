@@ -1,18 +1,22 @@
 class Person:
+    """Describe some person for example"""
 
     num_of_adults_in_America = 0
     num_of_adults_in_Ukraine = 0
 
     def __init__(self, name, age, country):
+        """Initialize the attributes of the Person class"""
         self.name = name
         self.age = age
         self.country = country
 
     def __str__(self):
+        """Return a string representation of the attributes"""
         return f'{self.name}, {self.age}, {self.country}'
 
     @classmethod
     def adult(cls, name, age, country):
+        """Count the number of adults in the USA and Ukraine, return instance"""
         if country == "USA" and age >= 18:
             cls.num_of_adults_in_America += 1
 
