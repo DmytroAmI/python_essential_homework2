@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#C:/Users/dmytr/PycharmProjects/python_essential_homework2/Task3.py</OriginalElement>
+  <nodes>
+    <node x="-41.5" y="106.0">object</node>
+    <node x="-80.0" y="-14.0">typing.Hashable</node>
+    <node x="-90.0" y="406.0">Task3.Descendant</node>
+    <node x="28.5" y="226.0">Task3.SuperClass1</node>
+    <node x="-92.5" y="286.0">Task3.SuperClass2</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Task3.Descendant" target="Task3.SuperClass2" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="object" target="typing.Hashable" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Task3.SuperClass1" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="120.0" y="200.0" />
+      <point x="0.0" y="200.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Task3.SuperClass2" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Task3.Descendant" target="Task3.SuperClass1" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="380.0" />
+      <point x="120.0" y="380.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.1623931623931625" showDependencies="false" x="59.5" y="243.99999999999997" />
+  <SelectedNodes />
+  <Categories />
+</Diagram>
+

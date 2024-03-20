@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#C:/Users/dmytr/PycharmProjects/python_essential_homework2/Task7.py</OriginalElement>
+  <nodes>
+    <node x="-61.5" y="166.0">object</node>
+    <node x="-100.0" y="-14.0">typing.Hashable</node>
+    <node x="-104.0" y="586.0">Task7.WheeledVehicle</node>
+    <node x="-71.0" y="766.0">Task7.Bicycle</node>
+    <node x="43.5" y="706.0">Task7.Car</node>
+    <node x="-71.0" y="406.0">Task7.Vehicle</node>
+    <node x="-50.5" y="286.0">abc.ABC</node>
+    <node x="60.0" y="526.0">Task7.Ship</node>
+    <node x="10.0" y="106.0">abc.ABCMeta</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Task7.Bicycle" target="Task7.WheeledVehicle" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Task7.Vehicle" target="abc.ABC" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="abc.ABC" target="abc.ABCMeta" relationship="INSTANCEOF">
+      <point x="25.25" y="-14.0" />
+      <point x="25.25" y="260.0" />
+      <point x="80.0" y="260.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="object" target="typing.Hashable" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="abc.ABC" target="object" relationship="REALIZATION">
+      <point x="-25.25" y="-14.0" />
+      <point x="-25.25" y="260.0" />
+      <point x="-20.0" y="260.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Task7.WheeledVehicle" target="Task7.Vehicle" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Task7.Car" target="Task7.WheeledVehicle" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="100.0" y="680.0" />
+      <point x="0.0" y="680.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Task7.Ship" target="Task7.Vehicle" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="120.0" y="500.0" />
+      <point x="0.0" y="500.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.6570048309178744" showDependencies="false" x="38.0" y="390.0" />
+  <SelectedNodes />
+  <Categories />
+</Diagram>
+

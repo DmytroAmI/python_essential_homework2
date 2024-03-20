@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#C:/Users/dmytr/PycharmProjects/python_essential_homework2/Task1.py</OriginalElement>
+  <nodes>
+    <node x="-41.5" y="106.0">object</node>
+    <node x="-80.0" y="-14.0">typing.Hashable</node>
+    <node x="-65.0" y="226.0">Task1.Editor</node>
+    <node x="-78.0" y="346.0">Task1.ProEditor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Task1.Editor" target="object" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="object" target="typing.Hashable" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="Task1.ProEditor" target="Task1.Editor" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.3333333333333333" showDependencies="false" x="0.0" y="189.0" />
+  <SelectedNodes />
+  <Categories />
+</Diagram>
+
